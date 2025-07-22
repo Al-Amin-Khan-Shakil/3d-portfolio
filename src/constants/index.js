@@ -11,17 +11,19 @@ import {
     redux,
     tailwind,
     nodejs,
-    mongodb,
+    ruby,
     git,
     figma,
-    docker,
+    rails,
+    postgresql,
     microverse,
     tttr,
     eleganttex,
-    carrent,
-    jobit,
-    tripguide,
+    hnh,
+    milonai,
+    toxscanai,
     threejs,
+    onlycss3d,
   } from "../assets";
 
   export const navLinks = [
@@ -59,10 +61,7 @@ import {
   ];
 
   const technologies = [
-    {
-      name: "HTML 5",
-      icon: html,
-    },
+
     {
       name: "CSS 3",
       icon: css,
@@ -76,12 +75,20 @@ import {
       icon: typescript,
     },
     {
+      name: "Ruby",
+      icon: ruby,
+    },
+    {
       name: "React JS",
       icon: reactjs,
     },
     {
       name: "Redux Toolkit",
       icon: redux,
+    },
+    {
+      name: "Three JS",
+      icon: threejs,
     },
     {
       name: "Tailwind CSS",
@@ -92,12 +99,12 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "rails",
+      icon: rails,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "postgresql",
+      icon: postgresql,
     },
     {
       name: "git",
@@ -106,10 +113,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
 
@@ -121,10 +124,10 @@ import {
       iconBg: "#383E56",
       date: "September 2024 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining backend services using Ruby on Rails and related technologies.",
+        "Implementing responsive, visually engaging designs with 3D elements, ensuring cross-browser compatibility.",
+        "Collaborating with cross-functional teams, including designers, product managers, CEOs, and developers, to deliver high-quality products.",
+        "Participating in code reviews and providing constructive feedback to peers",
       ],
     },
     {
@@ -134,10 +137,10 @@ import {
       iconBg: "#383E56",
       date: "May 22 - 24, 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Teamed up with developers from Bangladesh, Nigeria, and Kenya in a Tech To The Rescue and AWS hackathon to support a Ugandan NGO fighting hunger and food waste.",
+        "Built a full-stack app with Ruby on Rails, and PostgreSQL to streamline food distribution.",
+        "Added USSD functionality for accessibility in low/no-internet areas, boosting inclusivity.",
+        "Won among 600 teams, delivering an innovative solution reviewed and praised by AWS engineers for its technical excellence and social impact.",
       ],
     },
     {
@@ -147,10 +150,10 @@ import {
       iconBg: "#383E56",
       date: "June 2023 - February 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Mentored junior developers in Ruby, Rails, React, and JavaScript to sharpen their technical skills.",
+        "Conducted code reviews, enhancing code quality by 20% through improved structure and practices.",
+        "Supported mentees’ motivation and consistency to excel in a full-stack development program.",
+        "Guided remote pair programming and GitHub workflows to teach effective collaboration techniques.",
       ],
     },
     {
@@ -160,10 +163,10 @@ import {
       iconBg: "#383E56",
       date: "February 2022 - March 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developed and maintained WooCommerce website, optimizing functionality to drive user engagement and sales",
+        "Increased monthly sales to 400k by implementing strategic SEO tactics for enhanced online visibility.",
+        "Expanded product reach by 60% through visually appealing, SEO-optimized product descriptions and imagery.",
+        "Collaborated with designers and product managers to refine web features, ensuring a seamless user experience.",
       ],
     },
   ];
@@ -197,9 +200,9 @@ import {
 
   const projects = [
     {
-      name: "Car Rent",
+      name: "Haba Na Haba",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A internal web tool that streamlines food collection & distribution for an NGO fighting hunger and food waste, with USSD for low/no-internet access.",
       tags: [
         {
           name: "react",
@@ -214,41 +217,58 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: hnh,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "MilonAI",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A dynamic AI chat app for seamless group collaboration. Users can share chat sessions enabling real-time, multi-user, transparent AI conversations with focused contexts.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "node.js",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "postgresql",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: milonai,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "ToxScanAI",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A full-stack Web App that uses AI and OCR to analyze product ingredients from images to identify harmful compounds, explain risks, and provide usage recommendations.",
       tags: [
         {
-          name: "nextjs",
+          name: "node.js",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "react",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "postgresql",
+          color: "green-text-gradient",
+        },
+      ],
+      image: toxscanai,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Only CSS 3D Animation",
+      description:
+        "A fun project showcasing the capabilities of CSS for creating intricate 3D animations without relying on JavaScript.",
+      tags: [
+        {
+          name: "html",
           color: "green-text-gradient",
         },
         {
@@ -256,7 +276,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: onlycss3d,
       source_code_link: "https://github.com/",
     },
   ];
