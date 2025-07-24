@@ -8,27 +8,28 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
+import rails from "./tech/rails.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
+import ruby from "./tech/ruby.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import postgresql from "./tech/postgresql.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import microverse from "./company/microverse.png";
+import eleganttex from "./company/eleganttex.png";
+import tttr from "./company/tttr.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import hnh from "./hnh.png";
+import milonai from "./milon-ai.png";
+import toxscanai from "./toxscanai.png";
+import onlycss3d from "./onlycss3d.png";
 
 export {
   logo,
@@ -40,23 +41,24 @@ export {
   menu,
   close,
   css,
-  docker,
+  rails,
   figma,
   git,
   html,
   javascript,
-  mongodb,
+  ruby,
   nodejs,
   reactjs,
   redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  postgresql,
+  microverse,
+  eleganttex,
+  tttr,
+  hnh,
+  milonai,
+  toxscanai,
+  onlycss3d,
 };
