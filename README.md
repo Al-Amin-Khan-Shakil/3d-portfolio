@@ -174,7 +174,7 @@ I would like to thank [Nessrine](https://github.com/Nessrine88) for this project
 
 - Yes, you can. You can fork you modification on this project. If it gets approval then we will merge your changes.
 
-- **What knowledge Should I have to create a project like this?**
+**What knowledge Should I have to create a project like this?**
 
   - You should have the Knowledge of react, tailwindcss, three.js.
 
