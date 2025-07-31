@@ -60,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://Al-Amin-Khan-Shakil.github.io/3d-portfolio)
+- [Live Demo Link](https://al-amin-khan-shakil.github.io/3d-portfolio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
